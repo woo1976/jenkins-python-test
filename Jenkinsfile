@@ -13,7 +13,7 @@ pipeline {
     }
 
     environment {
-      PATH='%PATH%;C:\\Users\\standard\\anaconda3;C:\\Users\\standard\\anaconda3\\Scripts'
+      PATH='%PATH%;C:\\Program Files (x86)\\Jenkins\\miniconda3;C:\\Program Files (x86)\\Jenkins\\miniconda3\\Scripts'
     }
 
     stages {

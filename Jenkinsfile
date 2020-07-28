@@ -17,7 +17,12 @@ pipeline {
     }
 
     stages {
-
+        stage('Check path') {
+            bat '''
+                echo %PATH%
+                python --version
+                '''
+            }				
         stage ("Code pull"){
             steps{
                 checkout scm

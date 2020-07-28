@@ -20,7 +20,6 @@ pipeline {
         stage('Check path') {
             steps{
                 echo %PATH%
-                python --version
             }    
         }				
         stage ("Code pull"){
